@@ -21,8 +21,10 @@ import org.junit.Test;
 
 
             Response actualResponse = RestAssured
-                    .given().contentType(ContentType.JSON)
-                    .when().body(requestBody.toString())
+                    .given()
+                    .contentType(ContentType.JSON)
+                    .when()
+                    .body(requestBody.toString())
                     .put(endpoint);
 
 

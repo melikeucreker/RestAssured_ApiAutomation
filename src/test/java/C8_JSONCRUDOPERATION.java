@@ -16,7 +16,7 @@ import org.junit.Test;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
-public class JSONCRUDOPERATION {
+public class C8_JSONCRUDOPERATION {
 
     //  Global base URL (class-level)
     @BeforeClass
